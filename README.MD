@@ -7,7 +7,7 @@ A modern, mobile-responsive web application designed to help motorists estimate 
 ## 🌟 Features
 
 * **Real-time Calculation:** Get instant toll fee estimates for Class 1, 2, and 3 vehicles.
-* **Comprehensive Coverage:** Supports **SLEX, Skyway 3, NLEX, SCTEX, TPLEX, and STAR Tollway**.
+* **Comprehensive Coverage:** Supports SLEX, Skyway 3, NLEX, SCTEX, TPLEX, and STAR Tollway.
 * **Smart Search:** Filterable dropdowns for entry and exit points with expressway grouping.
 * **Dark Mode Support:** Seamless transition between light and dark themes.
 * **Recent History:** Saves your last 4 searches locally for quick access.
@@ -44,12 +44,11 @@ A modern, mobile-responsive web application designed to help motorists estimate 
 
 ## 📁 Project Structure
 
-src/
-├── components/       # Reusable UI components (ResultCard, TollMatrix, etc.)
-├── contexts/         # Theme and Global state logic
-├── lib/              # Core logic (Toll data and calculation algorithms)
-├── App.tsx           # Main application logic and layout
-└── main.tsx          # Entry point
+* **src/components/** - Reusable UI components (ResultCard, TollMatrix, etc.)
+* **src/contexts/** - Theme and Global state logic
+* **src/lib/** - Core logic (Toll data and calculation algorithms)
+* **src/App.tsx** - Main application logic and layout
+* **src/main.tsx** - Entry point
 
 ---
 
@@ -61,7 +60,8 @@ This tool provides estimates based on data from the Toll Regulatory Board (TRB).
 
 ## 👨‍💻 Developer
 
-**Victor "Ken" Roxas** *Full-Stack Developer*
+**Victor "Ken" Roxas**
+Full-Stack Developer
 
 * **Portfolio:** https://victorroxas.vercel.app
 * **GitHub:** @kenny-programmer
