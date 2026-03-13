@@ -29,27 +29,27 @@ A modern, mobile-responsive web application designed to help motorists estimate 
 ## 🚀 Getting Started
 
 1. Clone the repository:
-git clone https://github.com/kenny-programmer/luzon-tolls.git
+   git clone https://github.com/kenny-programmer/luzon-tolls.git
 
 2. Install dependencies:
-npm install
+   npm install
 
 3. Run the development server:
-npm run dev
+   npm run dev
 
 4. Open the app:
-Navigate to http://localhost:5173 in your browser.
+   Navigate to http://localhost:5173 in your browser.
 
 ---
 
 ## 📁 Project Structure
 
 src/
-├── components/       # Reusable UI components
-├── contexts/         # Theme and Global state logic
-├── lib/              # Core logic and calculation algorithms
-├── App.tsx           # Main application logic and layout
-└── main.tsx          # Entry point
+|-- components/       # Reusable UI components (ResultCard, TollMatrix, etc.)
+|-- contexts/         # Theme and Global state logic
+|-- lib/              # Core logic (Toll data and calculation algorithms)
+|-- App.tsx           # Main application logic and layout
+|-- main.tsx          # Entry point
 
 ---
 
@@ -64,8 +64,7 @@ This tool provides estimates based on data from the Toll Regulatory Board (TRB).
 Victor "Ken" Roxas
 Full-Stack Developer
 
-Portfolio: https://victorroxas.vercel.app
-GitHub: @kenny-programmer
+* Portfolio: https://victorroxas.vercel.app
+* GitHub: @kenny-programmer
 
-Support the Project:
 If this tool helped you, consider buying me a coffee! https://buymeacoffee.com/victorroxas
